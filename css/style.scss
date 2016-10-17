@@ -1,0 +1,35 @@
+
+$width: 700px;
+$height: $width*4/7;
+$PT: ($height - 80 )/ 2;
+$PB: $PT;
+
+
+*{
+	box-sizing: border-box;
+
+}
+
+
+
+.clockbox{
+	font-family: 'Pattaya', sans-serif;
+	color: white;
+	background: black;
+	display: block;
+	width: $width;
+	height: $height;
+	font-size: 50pt;
+	margin: 50px;
+	margin-left: 100px;
+	text-align: center;
+	padding-top: $PT;
+	padding-bottom: $PB;
+}
+
+#box3{
+	font-family: 'Arima Madurai', cursive;
+	font-weight: 100;
+}
+Contact GitHub API Training Shop Blog About
+© 2016 GitHub, Inc. Terms Privacy Security Status Help
